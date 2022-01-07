@@ -58,7 +58,7 @@ const getTheme = (mode: DarkMode, themeToggler: () => void): Theme =>
         },
       },
       themeToggler,
-    }),
+    } as any),
   );
 
 export default getTheme;
